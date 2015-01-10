@@ -19,7 +19,7 @@ body_open_tag = '''<!DOCTYPE html">
 <body align=center>'''
 
 heading='''<h1>GNOME Builder Fundraiser.</h1>
-           <h2><a href="https://www.indiegogo.com/project/builder-an-ide-of-our-gnome/">Please Donate!</a></h2>'''
+           <h2><a href="https://www.indiegogo.com/projects/builder-an-ide-of-our-gnome">Please Donate!</a></h2>'''
 
 raised_open_tag ='''<h3>'''
 raised_close_tag =''' Raised So Far!</h3>'''
