@@ -11,11 +11,9 @@ data = f.read()
 soup = BeautifulSoup(data, 'html.parser')
 amount = soup.find(**{'class': 'currency currency-medium'}).span.text
 
-body_open_tag = '''<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+body_open_tag = '''<!DOCTYPE html">
 <html>
 <head>
-  <meta content="text/html; charset=ISO-8859-1"
- http-equiv="content-type">
   <title>Builder Fundraiser</title>
 </head>
 <body align=center>'''
